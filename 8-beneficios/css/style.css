@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 20px;
+    width: 50%;
+    height: 800px;
+}
+
+.imagem img {
+    margin-right: 200px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    height: 800px;
+}
+
+body {
+    background-color: #467e82;
+}
+
+
+.titulo h1 {
+    color: #7ED957;
+    text-align: center;
+}
+
+.conteudo {
+    padding: 20px;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.conteudo h2, p {
+    color: #fff;
+    margin: 14px;
+
+}
+p {
+    font-style: italic;
+}
+
+button{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background: rgb(238, 237, 237);
+    cursor: pointer;
+    border-radius: 10px; 
+}

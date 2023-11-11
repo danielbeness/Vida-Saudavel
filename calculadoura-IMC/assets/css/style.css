@@ -1,0 +1,91 @@
+
+
+:root {
+ --primary-color: #467E82;
+ --primary-color-darker: #f71010;
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.alinhar {
+    padding: 60px;
+}
+
+.container {
+    display: block;
+    margin: 30px auto;
+    max-width: 600px;
+    width: 100%;
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 50px ;
+
+}
+
+.botao {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.text {
+    color: white;
+    font-size: 25px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+form input {
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 2px solid var(--primary-color) ;
+
+}
+
+form button {
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    background: #7ED957;
+    font-weight: 700;
+    color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+    
+}
+form button:hover {
+    background: var(--primary-color-darker);
+}
+
+.paragrafo-resutado, .bad {
+    padding: 10px 20px;
+    background: rgb(161, 227, 247);
+}
+
+.bad {
+    background-color: rgb(247, 97, 77);
+}

@@ -1,0 +1,254 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #467e82;
+  box-sizing: border-box;
+
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.assunto{
+  width: 100%;
+  text-align: center;
+}
+
+.assunto img {
+  width: 60%;
+  height: auto;
+}
+
+.logo a {
+  margin-right: 80px;
+  font-size: 25px;
+  text-decoration: none;
+  color:#7ED957;
+}
+
+
+.conteudo { 
+  gap: 200px;
+  padding: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.texto{
+  text-align: center;
+  margin: 15px;
+  width: 100%;
+  height: auto;
+  font-size: 30px;
+}
+.texto h1 {
+  color: #7ED957;
+}
+.texto p{
+  color: #ffff;
+}
+
+.profissionais {
+  gap: 80px;
+  margin-top: 200px;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 50px;
+}
+
+.profissionais a {
+  text-decoration: none;
+}
+.profissionais h3:hover {
+  box-shadow: 1px 1px 20px #7ED957;
+}
+
+.profissionais img {
+  box-shadow: 1px 1px 20px #7ED957;
+  border-radius: 50%;
+  width: 400px;
+}
+
+.profissionais h3{
+  margin: 10px;
+  padding: 20px;
+  font-size: 40px;
+  border-radius: 15px;
+  border: 1px solid #ffff;
+  color: #ffff;
+}
+
+.beneficios{
+  margin: 40px;
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
+}
+.beneficios h1{
+  color: #7ED957;
+}
+.beneficios p{
+  padding: 20px;
+  color: #ffff;
+}
+.beneficios a{
+  color: #ffff;
+  background-color: #7ED957;
+  border-radius: 30px;
+  font-size: 18px;
+  gap: 20px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.beneficios a:hover{
+  box-shadow: 1px 1px 25px #7ED957;
+}
+
+.calculadoras{
+  gap: 60px;
+  margin-top: 200px;
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.calcu{
+  text-align: center;
+  width: 800px;
+}
+
+.calculadoras h1{
+  color: #7ED957;
+}
+
+.calculadoras p{
+  color: #ffff;
+  padding: 30px;
+}
+
+.calculadoras a{
+  color: #ffff;
+  background-color: #7ED957;
+  border-radius: 30px;
+  font-size: 18px;
+  gap: 20px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.calculadoras a:hover{
+  box-shadow: 1px 1px 25px #7ED957;
+}
+
+.doencas {
+  margin-top: 100px;
+  font-size: 30px;
+  gap: 80px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.edit{
+  padding: 30px;
+  border: 1px solid #ffff;
+  border-radius: 20px;
+  width: 400px;
+}
+.edit h1{
+  color: #7ED957;
+}
+
+.edit p{
+  color: #ffff;
+}
+
+.edit1{ 
+  margin-top: 200px;
+  color: #7ED957;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.rodape h1{
+  color: #fff;
+  margin-top: 100px;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #326a6e;
+}
+
+@media screen and (max-width: 700px) {
+  .texto{
+    display: block;
+    width: 400px;
+    font-size: 20px;
+    margin: 0;
+    
+  }
+  
+  .profissionais img {
+    width: 300px;
+  }
+  
+  .profissionais {
+    margin-top: 0;
+  }
+
+  .conteudo {
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    gap: 30px;
+  }
+
+  .assunto img {
+    width: 400px;
+  }
+
+  .beneficios{
+    height: auto;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .calculadoras{
+    gap: 60px;
+    margin-top: 50px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .doencas {
+    margin-top: 10px;
+    font-size: 20px;
+    gap: 80px;
+  }
+
+  .edit1 {
+    margin-top: 50px;
+  }
+}

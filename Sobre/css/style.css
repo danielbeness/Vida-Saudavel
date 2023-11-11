@@ -1,0 +1,36 @@
+.todo{
+
+    background-color: #467E82;
+}
+.volta{
+    display:flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+    margin-top: 30px;   
+}
+.inicio{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-top: 100px; 
+      
+}
+.final{
+    display: flex;
+    gap: 500px; 
+    margin: 150px;    
+
+}
+button{
+    padding: 10px;
+    border: none;
+    background: rgb(238, 237, 237);
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+button:hover{
+    border: 1px solid;
+}

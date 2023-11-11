@@ -1,0 +1,38 @@
+.todo{
+
+    background-color: #467E82;
+}
+.volta{
+    display:flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+iframe{
+    margin: 100px;
+    border-radius: 50px;
+}
+.rodape{
+   /* display: flex; */  
+    align-items: center;  
+    text-align: center;
+    
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background: rgb(238, 237, 237);
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+button:hover{
+    border: 1px solid;
+}
